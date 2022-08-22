@@ -51,7 +51,7 @@ const CreateRoom = (props) => {
     return (
         <Container className={classes.container}>
             <Paper elevation={10} className={classes.paper}>
-                <Typography variant="h3">Video Chat App</Typography>
+                <Typography variant="h4">Video chat app</Typography>
                 <Grid container className={classes.gridContainer}>
                     <Button variant="contained" onClick={create} fullWidth color="secondary" startIcon={<AddCircleOutlineIcon fontSize="large" />} className={classes.margin}>
                         Create Room
